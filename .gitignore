@@ -1,0 +1,18 @@
+# Ignore Node.js dependencies
+task-manager-backend/node_modules/
+task-manager-frontend/node_modules/
+package-lock.json
+
+# Ignore environment files
+task-manager-backend/.env
+task-manager-frontend/.env
+
+# Ignore build and cache files
+task-manager-backend/dist/
+task-manager-frontend/build/
+task-manager-frontend/.next/
+task-manager-frontend/.cache/
+
+# Ignore logs
+task-manager-backend/*.log
+task-manager-frontend/*.log
